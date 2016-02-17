@@ -1,0 +1,50 @@
+{
+    "appKeys": {
+        "ShowDecimal": 4,
+        "ShowDuodecimal": 5,
+        "ShowFourthHand": 1,
+        "ShowSecondHand": 3,
+        "ShowThirdHand": 2,
+        "SubsecondUpdate": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "lwsbrcly",
+    "enableMultiJS": false,
+    "longName": "Duodecimal Time",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/Font",
+                "name": "FONT_18",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "images/MenuIcon",
+                "menuIcon": true,
+                "name": "ICON",
+                "targetPlatforms": null,
+                "type": "png"
+            },
+            {
+                "file": "images/Face",
+                "name": "FACE",
+                "targetPlatforms": null,
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Duodecimal",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "4fec80af-227d-4da3-9ebf-963b9ad3f1db",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
