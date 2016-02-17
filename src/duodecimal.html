@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Duodecimal Watchface Configuration</h1>
+
+<p><b>Watchface Components</b></p>
+
+<form>
+  <p> First hand. <br>
+Rotates once per day. Midnight is straight down, sunrise on the left, noon is straight up and sunset on the right.
+<br> <br>
+  <input type="checkbox" name="secondhandoption" value="show" checked> Second hand. (optional) <br>
+Rotates 12 times quicker than the previous hand. i.e. 1 rotation = 2 decimal hours.
+<br> <br>
+  <input type="checkbox" name="thirdhandoption" value="show" checked> Third hand. (optional) <br>
+Rotates 12 times quicker than the previous hand. i.e. 1 rotation = 10 decimal minutes.
+<br> <br>
+  <input type="checkbox" name="fourthhandoption" value="show" checked> Fourth hand. (optional) <br>
+Rotates 12 times quicker than the previous hand. i.e. 1 rotation = 50 decimal seconds.
+<br> <br>
+  <input type="checkbox" name="showdecimal" value="show" checked> Show decimal time. (optional) <br>
+To keep it old school, if your brain starts to overheat...
+<br> <br>
+  <input type="checkbox" name="showduodecimal" value="show" checked> Show duodecimal time. (optional) <br>
+Numeric rendering of the 4 hands. Upsidedown 2 is the new "ten". Upsidedown 3 is the new "eleven". Duodecimal now means that the number 27, for example, is 2 dozens + 7 units. That equates to 31 in decimal. Just sayin'...
+<br> <br>
+  <input type="checkbox" name="subsecond" value="on" checked> Subsecond rendering. (optional) <br>
+In order to feel the full sweeping power, leave this on. To conserve a tiny amount of battery, you can return to the old "tick tock" of updating once per decimal second.
+<br> <br>
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
